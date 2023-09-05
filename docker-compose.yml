@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  php-apache-environment:
+    container_name: bacho-lab-pcc
+    image: 'jormae/bacho-lab-pcc:1.0.0'
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www/html/
+      # - ./app/.htaccess:/var/www/html/app/.htaccess
+      # - ./public/.htaccess:/var/www/html/public/.htaccess
+    ports:
+      - 8080:80     
