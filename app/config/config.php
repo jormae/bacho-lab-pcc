@@ -10,6 +10,7 @@ define('SYSTEM_NAME', 'PCC ONLINE SYSTEM');
 define('LINE_TOKEN', 'pRiGbKiGhx7ZAguWwiaqKUWhEjyc6qzQFg6SzEInJg8'); //TEST GROUP
 
 // ORGANIZATION SETTINGS
+define('ORG_DOC_CODE', 'นธ 51006.0102');
 define('ORG_NAME', 'โรงพยาบาลส่งเสริมสุขภาพตำบลปะลุกาสาเมาะ');
 define('ORG_ABBR', 'รพ.สต.ปะลุกาสาเมาะ');
 define('ORG_ADDRESS', 'ถ.เพชรเกษม ต.ปะลุกาสาเมาะ อ.บาเจาะ จ.นราธิวาส 96170');
